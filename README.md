@@ -2,6 +2,8 @@
 
 **Eventio** is a modern event discovery and registration platform that connects users with events curated by various councils and organizations. Whether you're looking to attend tech talks, cultural fests, or workshops — Eventio makes it easy to explore, register, and participate.
 
+🎥 **Watch the Demo:** [https://youtu.be/UWIF-3zGFdY](https://youtu.be/UWIF-3zGFdY)
+
 ## 🔑 Key Features
 
 ### 🔐 User Authentication
@@ -25,3 +27,5 @@ Register for events directly from the app — no redirects, no hassle. Just a si
 ---
 
 Eventio is built with simplicity, performance, and user experience at its core. Start discovering events that matter to you.
+
+👉 **Demo Video:** [https://youtu.be/UWIF-3zGFdY](https://youtu.be/UWIF-3zGFdY)
