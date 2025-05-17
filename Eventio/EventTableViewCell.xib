@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="EventTableViewCell" customModule="Eventio" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mP-rz-iRN">
+                        <rect key="frame" x="0.0" y="10" width="325" height="130"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TH1-kx-5lh">
+                                <rect key="frame" x="10" y="10" width="151" height="110"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tu0-lj-GyT">
+                                        <rect key="frame" x="0.0" y="15" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="HAb-vN-4Hw"/>
+                                            <constraint firstAttribute="height" constant="80" id="nBn-0S-mrY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kby-Kn-YSo">
+                                        <rect key="frame" x="90" y="19" width="61" height="72"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdl-8u-wTu">
+                                                <rect key="frame" x="0.0" y="0.0" width="61" height="37"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="31"/>
+                                                <color key="textColor" name="AccentColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tagline" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1E-3t-Lfh">
+                                                <rect key="frame" x="0.0" y="37" width="61" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eez-d7-5QZ">
+                                                <rect key="frame" x="0.0" y="56.333333333333321" width="61" height="15.666666666666664"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                <color key="textColor" name="MuteColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6wP-tX-qfH">
+                                <rect key="frame" x="232.33333333333334" y="90" width="82.666666666666657" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Council" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1G-7A-5eS">
+                                        <rect key="frame" x="0.0" y="0.0" width="42.666666666666664" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zEZ-Oe-h3B">
+                                        <rect key="frame" x="52.666666666666657" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="4hs-NK-1fO"/>
+                                            <constraint firstAttribute="height" constant="30" id="mqe-bl-LIa"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="CardColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6wP-tX-qfH" secondAttribute="trailing" constant="10" id="Kog-ls-Gal"/>
+                            <constraint firstAttribute="bottom" secondItem="TH1-kx-5lh" secondAttribute="bottom" constant="10" id="WF1-uX-P98"/>
+                            <constraint firstAttribute="bottom" secondItem="6wP-tX-qfH" secondAttribute="bottom" constant="10" id="WOX-LM-mGA"/>
+                            <constraint firstItem="TH1-kx-5lh" firstAttribute="leading" secondItem="2mP-rz-iRN" secondAttribute="leading" constant="10" id="ZP3-sD-spq"/>
+                            <constraint firstItem="TH1-kx-5lh" firstAttribute="top" secondItem="2mP-rz-iRN" secondAttribute="top" constant="10" id="t18-as-d1M"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="BackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="2mP-rz-iRN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="0Yo-vx-rAw"/>
+                    <constraint firstAttribute="bottom" secondItem="2mP-rz-iRN" secondAttribute="bottom" constant="10" id="ky6-Q4-cYQ"/>
+                    <constraint firstItem="2mP-rz-iRN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="lmO-Nk-73X"/>
+                    <constraint firstAttribute="trailing" secondItem="2mP-rz-iRN" secondAttribute="trailing" id="xvS-gp-Oml"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <accessibility key="accessibilityConfiguration" identifier="EventCell"/>
+            <connections>
+                <outlet property="card" destination="2mP-rz-iRN" id="bhk-35-GHQ"/>
+                <outlet property="councilImageView" destination="zEZ-Oe-h3B" id="aia-2D-51u"/>
+                <outlet property="councilNameLabel" destination="C1G-7A-5eS" id="5Ew-OF-9hh"/>
+                <outlet property="dateLabel" destination="Eez-d7-5QZ" id="VRl-f9-Jyh"/>
+                <outlet property="eventImageView" destination="tu0-lj-GyT" id="RDd-Vi-7Hd"/>
+                <outlet property="taglineLabel" destination="W1E-3t-Lfh" id="NUQ-se-Nq4"/>
+                <outlet property="titleLabel" destination="mdl-8u-wTu" id="3u2-cG-Hl6"/>
+            </connections>
+            <point key="canvasLocation" x="107.63358778625954" y="35.91549295774648"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.71372549019607845" green="0.12156862745098039" blue="0.17647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CardColor">
+            <color red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MuteColor">
+            <color red="0.3411764705882353" green="0.34509803921568627" blue="0.35294117647058826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

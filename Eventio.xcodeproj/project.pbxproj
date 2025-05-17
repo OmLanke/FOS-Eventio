@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		668084FE2DD38DA700392BA6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 668084FD2DD38DA700392BA6 /* logo.png */; };
+		668085002DD3E49A00392BA6 /* Screenshot 2025-05-14 at 2.05.11 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 668084FF2DD3E49A00392BA6 /* Screenshot 2025-05-14 at 2.05.11 AM.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		666DC8352DD3495F0035CA13 /* Eventio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668084FD2DD38DA700392BA6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		668084FF2DD3E49A00392BA6 /* Screenshot 2025-05-14 at 2.05.11 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2025-05-14 at 2.05.11 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +52,8 @@
 		666DC82C2DD3495F0035CA13 = {
 			isa = PBXGroup;
 			children = (
+				668084FD2DD38DA700392BA6 /* logo.png */,
+				668084FF2DD3E49A00392BA6 /* Screenshot 2025-05-14 at 2.05.11 AM.png */,
 				666DC8372DD3495F0035CA13 /* Eventio */,
 				666DC8362DD3495F0035CA13 /* Products */,
 			);
@@ -122,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668084FE2DD38DA700392BA6 /* logo.png in Resources */,
+				668085002DD3E49A00392BA6 /* Screenshot 2025-05-14 at 2.05.11 AM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,13 +154,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XG47GK46S7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Eventio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -171,13 +183,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XG47GK46S7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Eventio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
